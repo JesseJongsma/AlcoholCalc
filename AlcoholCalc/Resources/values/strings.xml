@@ -1,0 +1,30 @@
+<resources>
+  <string name="app_name">AlcoholCalc</string>
+  <string name="action_settings">Settings</string>
+
+  <!-- The BAC spinner -->
+  <string name="BACSpinnerPrompt">Choose a BAC value</string>
+  <string-array name="BACArray">
+    <item>0.02 - 0.03 bit tipsy</item>
+    <item>0.04 - 0.06 slightly tipsy</item>
+    <item>0.07 - 0.09 tipsy</item>
+    <item>0.10 - 0.125 slightly drunk</item>
+    <item>0.13 - 0.15 drunk</item>
+    <item>0.16 - 0.19 sloppy drunk</item>
+    <item>0.21 - 0.30 passed out</item>
+    <item>0.30 - 0.35 (or more) coma</item>
+  </string-array>
+
+  <!-- The weight input -->
+  <string name="weightPrompt">Please enter your weight in kg</string>
+
+  <!-- The gender spinner -->
+  <string name="genderSpinnerPrompt">Choose your gender</string>
+  <string-array name="genderArray">
+    <item>Male</item>
+    <item>Female</item>
+  </string-array>
+
+  <!-- The calculate button -->
+  <string name="buttonTitle">Calculate</string>
+</resources>
